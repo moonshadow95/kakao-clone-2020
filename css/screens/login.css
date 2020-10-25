@@ -19,7 +19,7 @@
   flex-direction: column;
   margin: 0 30px;
 }
-input {
+.login-form input {
   margin-bottom: 25px;
 }
 .login-form__input {

@@ -1,6 +1,7 @@
 .user-component {
   justify-content: space-between;
-  padding: 18px 0;
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -43,4 +44,22 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+.user-component__subtitle-box {
+  display: flex;
+  align-items: center;
+}
+.user-component__exclamation {
+  display: block;
+  margin-top: 6px;
+  width: 10px;
+  height: 10px;
+  border: 2px solid tomato;
+  color: tomato;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 4px;
+  line-height: 9px;
 }

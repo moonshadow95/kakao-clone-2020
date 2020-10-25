@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Soo - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Kwang Soo</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Friday, October 23, 2020</div>
+      <div class="message-row">
+        <img src="images/kwang_soo.jpg" alt="friends' profile" />
+        <div class="message-row__content">
+          <span class="message__author">Kwang Soo</span>
+          <div class="message__info message-from">
+            <span class="message__bubble">Dude</span>
+            <span class="message__time">12:08</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info message-to">
+            <span class="message__bubble">Whats going on?</span>
+            <span class="message__time">12:08</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="images/kwang_soo.jpg" alt="friends' profile" />
+        <div class="message-row__content">
+          <span class="message__author">Kwang Soo</span>
+          <div class="message__info message-from">
+            <span class="message__bubble">I'm sorry for her...</span>
+            <span class="message__time">12:10</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div class="no-mobile">
+      <span>Your screen is too big </span><i class="far fa-sad-tear"></i>
+    </div>
+    <div class="no-portrait">
+      <span>Please flip your phone </span><i class="far fa-sad-tear"></i>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/e1ee70ad74.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
