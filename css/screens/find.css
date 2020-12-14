@@ -104,3 +104,6 @@
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
+.icon_row__icon span {
+  font-size: 12px;
+}
