@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #000;
   height: 120vh;
 }
 #chat-screen .alt-header,
@@ -8,7 +8,7 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: #000;
 }
 #chat-screen .status-bar {
   z-index: 2;
@@ -64,8 +64,8 @@
   animation: fadeInTo 0.5s ease-in;
 }
 .chat__timestamp {
-  color: #fff;
-  background-color: #92a4b2;
+  color: whitesmoke;
+  background-color: var(--mainColor);
   padding: 10px 15px;
   border-radius: 20px;
   font-size: 14px;
@@ -86,7 +86,7 @@
   margin-bottom: 10px;
 }
 .message__bubble {
-  background-color: #fff;
+  background-color: rgb(116, 116, 116);
   padding: 10px 10px;
   border-radius: 10px;
   border-top-left-radius: 0;
@@ -107,7 +107,7 @@
   justify-content: flex-end;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--mainColor);
   border-radius: 10px;
   border-top-right-radius: 0;
   margin-right: 0;
@@ -129,7 +129,7 @@
   transition: all 0.3s ease-in-out;
 }
 .reply i {
-  opacity: 0.6;
+  color: var(--mainColor);
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -159,11 +159,12 @@
 .reply__column:last-child button {
   top: 3px;
   right: 7px;
-  background-color: var(--yellow);
+  background-color: yellow;
   border: none;
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  color: whitesmoke;
 }
 .reply__column button i {
   opacity: 1;
@@ -185,9 +186,9 @@
 }
 
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-13%) translateY(-80px);
+  width: 85vw;
+  transform: translateX(-10%) translateY(-80px);
 }
 .reply:focus-within {
-  transform: translateY(80px);
+  transform: translateY(60px);
 }

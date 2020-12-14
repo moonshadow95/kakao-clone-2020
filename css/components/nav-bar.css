@@ -3,9 +3,9 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #f9f9fa;
   padding: 20px 50px;
   border-top: 1px solid rgba(121, 121, 121, 0.2);
+  overflow: hidden;
 }
 .nav__list {
   display: flex;
@@ -13,7 +13,7 @@
 }
 .nav__link {
   position: relative;
-  color: #2e363e;
+  color: whitesmoke;
 }
 @keyframes notificationAnimation {
   0% {
@@ -71,4 +71,51 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.6s;
+}
+.nav__bg {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 50px;
+  height: 200px;
+  transform: rotate(45deg);
+}
+.nav__bg:first-child {
+  left: -12px;
+}
+.nav__bg:nth-child(2) {
+  left: 58px;
+}
+.nav__bg:nth-child(3) {
+  left: 128px;
+}
+.nav__bg:nth-child(4) {
+  left: 198px;
+}
+.nav__bg:nth-child(5) {
+  left: 268px;
+}
+.nav__bg:nth-child(6) {
+  left: 338px;
+}
+.nav__bg:nth-child(7) {
+  left: 408px;
+}
+.nav__bg:nth-child(8) {
+  left: 478px;
+}
+.nav__bg:nth-child(9) {
+  left: 548px;
+}
+.nav__bg:nth-child(10) {
+  left: 618px;
+}
+.nav__bg:nth-child(11) {
+  left: 688px;
+}
+.bg__red {
+  background-color: red;
+}
+.bg__green {
+  background-color: green;
 }

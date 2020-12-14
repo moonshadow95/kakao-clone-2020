@@ -1,0 +1,128 @@
+@keyframes falling1 {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(800px) translateX(50px);
+    opacity: 0;
+  }
+}
+@keyframes falling2 {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(600px) translateX(100px);
+    opacity: 0;
+  }
+}
+@keyframes falling3 {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(500px) translateX(-100px);
+    opacity: 0;
+  }
+}
+@keyframes falling4 {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(550px) translateX(-50px);
+    opacity: 0.4;
+  }
+}
+.snow-container {
+  position: absolute;
+  left: 90px;
+  top: 50px;
+  z-index: -99;
+}
+.snow-container span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.snow-container span:first-child {
+  background-color: #fff;
+  animation: falling1 3s infinite ease-in-out;
+}
+.snow-container span:nth-child(2) {
+  margin: 30px 0 0 80px;
+  background-color: #fff;
+  animation: falling2 4s infinite ease-in-out;
+  animation-delay: 0.3s;
+}
+.snow-container span:nth-child(3) {
+  margin: 40px 0 0 100px;
+  background-color: #fff;
+  animation: falling4 5s infinite ease-in-out;
+  animation-delay: 0.1s;
+}
+.snow-container span:nth-child(4) {
+  margin: 45px 0 0 300px;
+  background-color: #fff;
+  animation: falling3 2s infinite ease-in-out;
+}
+.snow-container span:nth-child(5) {
+  margin: 35px 0 0 500px;
+  background-color: #fff;
+  animation: falling1 3s infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+.snow-container span:nth-child(6) {
+  margin: 50px 0 0 250px;
+
+  background-color: #fff;
+  animation: falling4 6s infinite ease-in-out;
+  animation-delay: 0.6s;
+}
+.snow-container span:nth-child(7) {
+  margin: 40px 0 0 320px;
+
+  background-color: #fff;
+  animation: falling3 3s infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+.snow-container span:nth-child(8) {
+  margin: 50px 0 0 100px;
+
+  background-color: #fff;
+  animation: falling2 7s infinite ease-in-out;
+}
