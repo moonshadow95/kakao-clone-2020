@@ -12,10 +12,12 @@
 }
 #chat-screen .status-bar {
   z-index: 2;
+  width: 100vw;
 }
 #chat-screen .alt-header {
   top: 10px;
   z-index: 1;
+  width: 100vw;
 }
 #chat-screen .alt-header__title {
   font-size: 24px;
