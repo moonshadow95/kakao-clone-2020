@@ -1,5 +1,5 @@
 body {
-  overflow: hidden;
+  overflow-y: hidden;
 }
 .friends-screen {
   padding: 0 var(--horizontal-space);
